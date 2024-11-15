@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "app.py",
+                "--server.port",
+                "5678"
+            ],
+            "preLaunchTask": "pip install"
+        }
+    ]
+}

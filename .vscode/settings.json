@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit" // コード保存時にimport行を整理
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff", // FormatterにRuffを使用
+        "editor.formatOnSave": true, // コード保存時にフォーマットを実行
+    },
+}
